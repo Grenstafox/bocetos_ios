@@ -51,7 +51,7 @@ struct AgregarSerie: View {
                 VStack{
                     ForEach(plataformas){plataforma in
                         Text(plataforma.nombre).onTapGesture {
-                            plataforma_seleccionada = plataforma
+                            ///plataforma_seleccionada = plataforma
                         }
                     }
                 }
@@ -61,7 +61,7 @@ struct AgregarSerie: View {
                 if !nombre_plataforma.isEmpty && !imagen_plataforma.isEmpty {
                     let plataforma_nueva = Plataforma(nombre: nombre_plataforma, imagen: imagen_plataforma)
                     
-                    plataformas_agregadas.append(plataforma_seleccionada)
+                   // plataformas_agregadas.append(plataforma_seleccionada)
                     
                     nombre_plataforma = ""
                     imagen_plataforma = ""
