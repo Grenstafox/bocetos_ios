@@ -5,31 +5,23 @@
 //  Created by alumno on 3/19/25.
 //
 
-
 import SwiftUI
 
 struct ContentView: View {
     @Environment(VistaModeloBasico.self) private var controlador
     @State var mostrar_arergar_pantalla: Bool = false
     
-    var body: some View {
-        if !mostrar_arergar_pantalla{
+    var body: some View {//Deuda tecnica
+        if  controlador.estado_actual_de_la_aplicacion ==
+            .mostrando_series{
+            MenuPrincipalSeries()
             ScrollView{
                 VStack {
-                    ForEach(controlador.series_registradas){ _ in
-                        Image(systemName: "plus")
-                    }
                 }
-                .padding()
-            }
-            Spacer()
-            
-            Button("Agrega por favor una serie de prueba"){
-                mostrar_arergar_pantalla = true
             }
         }
         else{
-            AgregarSeri()
+            AgregarSerie()
         }
     }
 }

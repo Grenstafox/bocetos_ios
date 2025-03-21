@@ -16,7 +16,7 @@ struct Temporada: Identifiable{
 struct Plataforma: Identifiable{
     var id = UUID()
     var nombre: String
-    var icono: String
+    var imagen: String
 }
 
 struct InformacionSerie: Identifiable{
