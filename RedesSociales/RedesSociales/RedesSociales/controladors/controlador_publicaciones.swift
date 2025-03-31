@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/*
 class ControladorPublicaciones: ObservableObject{
     //@Published
     @Published var publicaciones: [Publicacion] = []
@@ -17,4 +18,4 @@ class ControladorPublicaciones: ObservableObject{
         guard let publicaciones_descargadas: [Publicacion] = try? await  PlaceHolderApi().descargar_publicaciones(desde: url_de_publicacione)else { return }
         publicaciones = publicaciones_descargadas
     }
-}
+}*/
