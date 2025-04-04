@@ -2,11 +2,11 @@
 //  errores.swift
 //  RedesSociales
 //
-//  Created by alumno on 3/24/25.
+//  Created by Jadzia Gallegos on 24/03/25.
 //
 
 enum ErroresDeRed: Error{
-    case malaDireccionUrl
+    case badUrl
     case invalidRequest
     case badResponse
     case badStatus

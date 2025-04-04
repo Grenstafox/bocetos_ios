@@ -1,33 +1,26 @@
 //
-//  placeholder_api.swift
+//  dragonball_api.swift
 //  RedesSociales
 //
-//  Created by Jadzia Gallegos on 24/03/25.
+//  Created by Jadzia Gallegos on 02/04/25.
 //
 import SwiftUI
 
 
-class PlaceHolderAPI: Codable {
-    let url_de_servicio = "https://jsonplaceholder.typicode.com" // URl de la ubicacion o fuente de todos los demas recursos
+class DragonBallAPI: Codable{
+    let url_base = "https://dragonball-api.com/api"
     
-    func descargar_publicaciones() async  -> [Publicacion]? {
-        let ubicacion_recurso = "/posts"
+    func descargar_pagina_personajes() async -> PaginaResultado? {
+        let ubicacion_recurso = "/characters"
+        
         return await descargar(recurso: ubicacion_recurso)
     }
     
-    func descargar_comentarios(post_id: Int) async -> [Comentario]? {
-        let ubicacion_recurso = "/posts/\(post_id)/comments"
-        return await descargar(recurso: ubicacion_recurso)
-    }
     
-    func descargar_perfil(id: Int) async -> Perfil? {
-        let ubicacion_recurso = "/users/\(id)/"
-        return await descargar(recurso: ubicacion_recurso)
-    }
     
     private func descargar<TipoGenerico: Codable>(recurso: String) async  -> TipoGenerico? {
         do {
-            guard let url = URL(string: "\(url_de_servicio)\(recurso)") else { throw ErroresDeRed.badUrl }
+            guard let url = URL(string: "\(url_base)\(recurso)") else { throw ErroresDeRed.badUrl }
             let (datos, respuesta) = try await URLSession.shared.data(from: url)
             guard let respuesta = respuesta as? HTTPURLResponse else { throw ErroresDeRed.badResponse }
             guard respuesta.statusCode >= 200 && respuesta.statusCode < 300  else { throw ErroresDeRed.badStatus }
@@ -47,6 +40,7 @@ class PlaceHolderAPI: Codable {
         }
         catch ErroresDeRed.fallaAlConvertirLaRespuesta {
             print("Tienes mal el modelo o la implementacion de este")
+            print("EN dragon ball api")
         }
         
         catch ErroresDeRed.invalidRequest {

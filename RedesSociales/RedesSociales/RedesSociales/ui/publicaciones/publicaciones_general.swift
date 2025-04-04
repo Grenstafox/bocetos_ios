@@ -2,9 +2,10 @@
 //  publicaciones_general.swift
 //  RedesSociales
 //
-//  Created by alumno on 3/24/25.
+//  Created by Jadzia Gallegos on 24/03/25.
 //
 import SwiftUI
+
 
 struct GeneralPublicaciones: View {
    //@StateObject var controlador = ControladorPublicaciones()
@@ -45,4 +46,3 @@ struct GeneralPublicaciones: View {
     GeneralPublicaciones()
         .environment(ControladorAplicacion())
 }
-

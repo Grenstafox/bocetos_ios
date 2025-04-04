@@ -2,7 +2,7 @@
 //  perfil_vista_basica.swift
 //  RedesSociales
 //
-//  Created by alumno on 3/31/25.
+//  Created by Jadzia Gallegos on 28/03/25.
 //
 import SwiftUI
 
@@ -26,4 +26,3 @@ struct PerfilBasicoVista: View {
     PerfilBasicoVista()
         .environment(ControladorAplicacion())
 }
-

@@ -1,11 +1,11 @@
 //
-//  Comentario2.swift
+//  comentario.swift
 //  RedesSociales
 //
-//  Created by alumno on 3/31/25.
+//  Created by Jadzia Gallegos on 26/03/25.
 //
+import SwiftUI
 
-import Foundation
 
 struct Comentario: Identifiable, Codable{
     let postId: Int
@@ -14,4 +14,3 @@ struct Comentario: Identifiable, Codable{
     let email: String
     let body: String
 }
-

@@ -2,10 +2,10 @@
 //  controlador_app.swift
 //  RedesSociales
 //
-//  Created by alumno on 3/31/25.
+//  Created by Jadzia Gallegos on 25/03/25.
 //
-
 import SwiftUI
+// import Foundation
 
 @Observable
 @MainActor
@@ -16,11 +16,18 @@ public class ControladorAplicacion{
     var publicacion_seleccionada: Publicacion? = nil
     var perfil_a_mostar: Perfil? = nil
     
+    var pagina_resultados: PaginaResultado? = nil
     
     init(){
         Task.detached(priority: .high){
             await self.descargar_publicaciones()
+            
+            await self.descargar_monos_chinos()
         }
+    }
+    
+    func descargar_monos_chinos() async {
+        await print(DragonBallAPI().descargar_pagina_personajes())
     }
     
     func descargar_publicaciones() async {

@@ -8,27 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		FB9F87242D91B07F00EE69DA /* RedesSocialesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F87232D91B07F00EE69DA /* RedesSocialesApp.swift */; };
-		FB9F87262D91B07F00EE69DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F87252D91B07F00EE69DA /* ContentView.swift */; };
 		FB9F87282D91B07F00EE69DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9F87272D91B07F00EE69DA /* Assets.xcassets */; };
 		FB9F872B2D91B07F00EE69DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9F872A2D91B07F00EE69DA /* Preview Assets.xcassets */; };
-		FB9F87352D91B26900EE69DA /* Publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F87342D91B26900EE69DA /* Publicacion.swift */; };
 		FB9F87392D91B4D700EE69DA /* placeholder_api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F87382D91B4D700EE69DA /* placeholder_api.swift */; };
 		FB9F873B2D91B4E100EE69DA /* errores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F873A2D91B4E100EE69DA /* errores.swift */; };
-		FB9F873E2D91BC3F00EE69DA /* controlador_publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F873D2D91BC3F00EE69DA /* controlador_publicaciones.swift */; };
 		FB9F87432D91BE2000EE69DA /* publicaciones_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9F87422D91BE2000EE69DA /* publicaciones_general.swift */; };
+		FBED268D2DA0339F00489817 /* publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED268C2DA0339F00489817 /* publicacion.swift */; };
+		FBED26922DA0356200489817 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26912DA0356200489817 /* ContentView.swift */; };
+		FBED26A92DA035F200489817 /* perfil_vista_basica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26A52DA035F200489817 /* perfil_vista_basica.swift */; };
+		FBED26AA2DA035F200489817 /* menu_apliacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26A72DA035F200489817 /* menu_apliacion.swift */; };
+		FBED26AD2DA0363A00489817 /* dragonball_api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26AC2DA0363A00489817 /* dragonball_api.swift */; };
+		FBED26AF2DA03CF000489817 /* controlador_app.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26AE2DA03CF000489817 /* controlador_app.swift */; };
+		FBED26B12DA03CFC00489817 /* controlador_publicaciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B02DA03CFC00489817 /* controlador_publicaciones.swift */; };
+		FBED26B32DA03D0F00489817 /* Publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B22DA03D0F00489817 /* Publicacion.swift */; };
+		FBED26B52DA03D1A00489817 /* perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B42DA03D1A00489817 /* perfil.swift */; };
+		FBED26BD2DA03D2700489817 /* pagina_resultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B62DA03D2700489817 /* pagina_resultados.swift */; };
+		FBED26BE2DA03D2700489817 /* mono_chino.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B82DA03D2700489817 /* mono_chino.swift */; };
+		FBED26BF2DA03D2700489817 /* planeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26B92DA03D2700489817 /* planeta.swift */; };
+		FBED26C02DA03D2700489817 /* transformacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26BA2DA03D2700489817 /* transformacion.swift */; };
+		FBED26C12DA03D2700489817 /* comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26BC2DA03D2700489817 /* comentario.swift */; };
+		FBED26C42DA0408100489817 /* PantallaPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED26C32DA0408100489817 /* PantallaPersonajes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB9F87202D91B07F00EE69DA /* RedesSociales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedesSociales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9F87232D91B07F00EE69DA /* RedesSocialesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedesSocialesApp.swift; sourceTree = "<group>"; };
-		FB9F87252D91B07F00EE69DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB9F87272D91B07F00EE69DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9F872A2D91B07F00EE69DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB9F87342D91B26900EE69DA /* Publicacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publicacion.swift; sourceTree = "<group>"; };
 		FB9F87382D91B4D700EE69DA /* placeholder_api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeholder_api.swift; sourceTree = "<group>"; };
 		FB9F873A2D91B4E100EE69DA /* errores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = errores.swift; sourceTree = "<group>"; };
-		FB9F873D2D91BC3F00EE69DA /* controlador_publicaciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlador_publicaciones.swift; sourceTree = "<group>"; };
 		FB9F87422D91BE2000EE69DA /* publicaciones_general.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicaciones_general.swift; sourceTree = "<group>"; };
+		FBED268C2DA0339F00489817 /* publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = publicacion.swift; path = ../../../../../../bocetos_swiftui/redes_sociales/RedesSociales/RedesSociales/ui/publicaciones/publicacion.swift; sourceTree = "<group>"; };
+		FBED26912DA0356200489817 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBED26A52DA035F200489817 /* perfil_vista_basica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil_vista_basica.swift; sourceTree = "<group>"; };
+		FBED26A72DA035F200489817 /* menu_apliacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_apliacion.swift; sourceTree = "<group>"; };
+		FBED26AC2DA0363A00489817 /* dragonball_api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = dragonball_api.swift; path = ../../../../../bocetos_swiftui/redes_sociales/RedesSociales/RedesSociales/servicios_API/dragonball_api.swift; sourceTree = "<group>"; };
+		FBED26AE2DA03CF000489817 /* controlador_app.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = controlador_app.swift; path = RedesSociales/controladores/controlador_app.swift; sourceTree = SOURCE_ROOT; };
+		FBED26B02DA03CFC00489817 /* controlador_publicaciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = controlador_publicaciones.swift; path = RedesSociales/controladores/controlador_publicaciones.swift; sourceTree = SOURCE_ROOT; };
+		FBED26B22DA03D0F00489817 /* Publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publicacion.swift; sourceTree = "<group>"; };
+		FBED26B42DA03D1A00489817 /* perfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil.swift; sourceTree = "<group>"; };
+		FBED26B62DA03D2700489817 /* pagina_resultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pagina_resultados.swift; sourceTree = "<group>"; };
+		FBED26B82DA03D2700489817 /* mono_chino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mono_chino.swift; sourceTree = "<group>"; };
+		FBED26B92DA03D2700489817 /* planeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = planeta.swift; sourceTree = "<group>"; };
+		FBED26BA2DA03D2700489817 /* transformacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transformacion.swift; sourceTree = "<group>"; };
+		FBED26BC2DA03D2700489817 /* comentario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comentario.swift; sourceTree = "<group>"; };
+		FBED26C32DA0408100489817 /* PantallaPersonajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaPersonajes.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +69,6 @@
 		FB9F87172D91B07F00EE69DA = {
 			isa = PBXGroup;
 			children = (
-				FB9F87342D91B26900EE69DA /* Publicacion.swift */,
 				FB9F87222D91B07F00EE69DA /* RedesSociales */,
 				FB9F87212D91B07F00EE69DA /* Products */,
 			);
@@ -65,7 +88,7 @@
 				FB9F873C2D91B58300EE69DA /* ContentView */,
 				FB9F87312D91B15500EE69DA /* modelos */,
 				FB9F87372D91B4C000EE69DA /* Servicios_API */,
-				FB9F87322D91B19000EE69DA /* controladors */,
+				FBED26902DA0353200489817 /* controladores */,
 				FB9F87412D91BDEF00EE69DA /* ui */,
 				FB9F87232D91B07F00EE69DA /* RedesSocialesApp.swift */,
 				FB9F87272D91B07F00EE69DA /* Assets.xcassets */,
@@ -85,22 +108,19 @@
 		FB9F87312D91B15500EE69DA /* modelos */ = {
 			isa = PBXGroup;
 			children = (
+				FBED26BC2DA03D2700489817 /* comentario.swift */,
+				FBED26BB2DA03D2700489817 /* dragon_ball */,
+				FBED26B42DA03D1A00489817 /* perfil.swift */,
+				FBED26B22DA03D0F00489817 /* Publicacion.swift */,
 			);
 			path = modelos;
-			sourceTree = "<group>";
-		};
-		FB9F87322D91B19000EE69DA /* controladors */ = {
-			isa = PBXGroup;
-			children = (
-				FB9F873D2D91BC3F00EE69DA /* controlador_publicaciones.swift */,
-			);
-			path = controladors;
 			sourceTree = "<group>";
 		};
 		FB9F87372D91B4C000EE69DA /* Servicios_API */ = {
 			isa = PBXGroup;
 			children = (
 				FB9F87382D91B4D700EE69DA /* placeholder_api.swift */,
+				FBED26AC2DA0363A00489817 /* dragonball_api.swift */,
 				FB9F873A2D91B4E100EE69DA /* errores.swift */,
 			);
 			path = Servicios_API;
@@ -109,7 +129,7 @@
 		FB9F873C2D91B58300EE69DA /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
-				FB9F87252D91B07F00EE69DA /* ContentView.swift */,
+				FBED26912DA0356200489817 /* ContentView.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
@@ -117,6 +137,9 @@
 		FB9F87412D91BDEF00EE69DA /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				FBED26C22DA03FF300489817 /* Dragon_ball */,
+				FBED26A82DA035F200489817 /* menu_inicial */,
+				FBED26A62DA035F200489817 /* perfil_basico */,
 				FB9F87442D91BE2A00EE69DA /* publicaciones */,
 			);
 			path = ui;
@@ -126,8 +149,64 @@
 			isa = PBXGroup;
 			children = (
 				FB9F87422D91BE2000EE69DA /* publicaciones_general.swift */,
+				FBED268C2DA0339F00489817 /* publicacion.swift */,
 			);
 			path = publicaciones;
+			sourceTree = "<group>";
+		};
+		FBED26902DA0353200489817 /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26B02DA03CFC00489817 /* controlador_publicaciones.swift */,
+				FBED26AE2DA03CF000489817 /* controlador_app.swift */,
+			);
+			name = controladores;
+			path = controladors/controladores;
+			sourceTree = "<group>";
+		};
+		FBED26A62DA035F200489817 /* perfil_basico */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26A52DA035F200489817 /* perfil_vista_basica.swift */,
+			);
+			name = perfil_basico;
+			path = ../../../../../bocetos_swiftui/redes_sociales/RedesSociales/RedesSociales/ui/perfil_basico;
+			sourceTree = "<group>";
+		};
+		FBED26A82DA035F200489817 /* menu_inicial */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26A72DA035F200489817 /* menu_apliacion.swift */,
+			);
+			name = menu_inicial;
+			path = ../../../../../bocetos_swiftui/redes_sociales/RedesSociales/RedesSociales/ui/menu_inicial;
+			sourceTree = "<group>";
+		};
+		FBED26B72DA03D2700489817 /* soporte */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26B62DA03D2700489817 /* pagina_resultados.swift */,
+			);
+			path = soporte;
+			sourceTree = "<group>";
+		};
+		FBED26BB2DA03D2700489817 /* dragon_ball */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26B72DA03D2700489817 /* soporte */,
+				FBED26B82DA03D2700489817 /* mono_chino.swift */,
+				FBED26B92DA03D2700489817 /* planeta.swift */,
+				FBED26BA2DA03D2700489817 /* transformacion.swift */,
+			);
+			path = dragon_ball;
+			sourceTree = "<group>";
+		};
+		FBED26C22DA03FF300489817 /* Dragon_ball */ = {
+			isa = PBXGroup;
+			children = (
+				FBED26C32DA0408100489817 /* PantallaPersonajes.swift */,
+			);
+			path = Dragon_ball;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,12 +280,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9F87432D91BE2000EE69DA /* publicaciones_general.swift in Sources */,
+				FBED26B52DA03D1A00489817 /* perfil.swift in Sources */,
 				FB9F87392D91B4D700EE69DA /* placeholder_api.swift in Sources */,
-				FB9F87352D91B26900EE69DA /* Publicacion.swift in Sources */,
-				FB9F87262D91B07F00EE69DA /* ContentView.swift in Sources */,
-				FB9F873E2D91BC3F00EE69DA /* controlador_publicaciones.swift in Sources */,
+				FBED26922DA0356200489817 /* ContentView.swift in Sources */,
+				FBED26B12DA03CFC00489817 /* controlador_publicaciones.swift in Sources */,
+				FBED268D2DA0339F00489817 /* publicacion.swift in Sources */,
+				FBED26C02DA03D2700489817 /* transformacion.swift in Sources */,
+				FBED26AF2DA03CF000489817 /* controlador_app.swift in Sources */,
+				FBED26BF2DA03D2700489817 /* planeta.swift in Sources */,
+				FBED26AA2DA035F200489817 /* menu_apliacion.swift in Sources */,
 				FB9F87242D91B07F00EE69DA /* RedesSocialesApp.swift in Sources */,
+				FBED26B32DA03D0F00489817 /* Publicacion.swift in Sources */,
+				FBED26A92DA035F200489817 /* perfil_vista_basica.swift in Sources */,
+				FBED26BE2DA03D2700489817 /* mono_chino.swift in Sources */,
+				FBED26BD2DA03D2700489817 /* pagina_resultados.swift in Sources */,
+				FBED26AD2DA0363A00489817 /* dragonball_api.swift in Sources */,
 				FB9F873B2D91B4E100EE69DA /* errores.swift in Sources */,
+				FBED26C42DA0408100489817 /* PantallaPersonajes.swift in Sources */,
+				FBED26C12DA03D2700489817 /* comentario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
